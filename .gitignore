@@ -1,0 +1,42 @@
+﻿# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+*.log
+
+# ---- Visual Studio ----
+.vs/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.user
+*.VCXPROJ*
+*.filters
+
+# ---- Visual Studio Code ----
+.vscode/
+*.code-workspace
+
+# ---- CMake ----
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Testing/
+*.dir/
+
+# ---- Binaries ----
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# ---- Python ----
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info
