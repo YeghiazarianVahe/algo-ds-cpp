@@ -1,42 +1,76 @@
-﻿# ---- OS / Editor ----
+﻿# =========================
+# OS / Editor
+# =========================
 .DS_Store
 Thumbs.db
 *.log
+*.swp
+*.tmp
+*.bak
 
-# ---- Visual Studio ----
+# =========================
+# Visual Studio
+# =========================
 .vs/
 *.VC.db
 *.VC.opendb
-*.sln
 *.suo
 *.user
-*.VCXPROJ*
-*.filters
+*.userosscache
+*.sln.docstates
 
-# ---- Visual Studio Code ----
+# IntelliSense / PCH cache
+*.ipch
+*.iobj
+*.ipdb
+
+# =========================
+# Visual Studio Code
+# =========================
 .vscode/
 *.code-workspace
 
-# ---- CMake ----
-build/
-CMakeFiles/
-CMakeCache.txt
+# =========================
+# CMake
+# =========================
+[Cc]MakeCache.txt
+[Cc]MakeFiles/
+[Cc]TestTestfile.cmake
 cmake_install.cmake
 compile_commands.json
-Testing/
+Makefile
 *.dir/
+build/
+out/
 
-# ---- Binaries ----
-[Bb]in/
-[Oo]bj/
+# Ninja
+.ninja_deps
+.ninja_log
+
+# =========================
+# Windows
+# =========================
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Binaries
+# =========================
 *.exe
 *.dll
 *.lib
 *.pdb
+*.obj
+*.o
+*.a
+*.so
+*.dylib
 
-# ---- Python ----
-.venv/
+# =========================
+# Python 
+# =========================
 __pycache__/
 *.pyc
 *.pyo
-*.egg-info
+*.pyd
+.venv/
