@@ -136,7 +136,6 @@ namespace algo::arays {
         size_t _size;
         size_t _capacity;
 
-
         void reserve(size_t new_cap) {
             if (new_cap <= _capacity) return;
             T* new_data = new T[new_cap];
