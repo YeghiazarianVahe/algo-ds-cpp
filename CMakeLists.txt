@@ -19,8 +19,8 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 # -------------------------------------------------------------------
 # Core Library
 # -------------------------------------------------------------------
-file(GLOB_RECURSE ALGO_HEADERS include/algo/algorithms/**/*.hpp)
-file(GLOB_RECURSE ALGO_SOURCES src/*.cpp)
+file(GLOB_RECURSE ALGO_HEADERS include/algo/algorithms/*.hpp)
+file(GLOB ALGO_SOURCES src/*.cpp)
 
 add_library(algo ${ALGO_HEADERS} ${ALGO_SOURCES})
 target_include_directories(algo PUBLIC include)
